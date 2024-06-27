@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
 
-app.use('/api/books', router)
+app.use('/books', router)
 
 //ponemos en escucha al servidor
 app.listen(PORT, () => {
