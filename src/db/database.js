@@ -21,4 +21,4 @@ db = [
 
 module.exports = {
     db
-}
+};
